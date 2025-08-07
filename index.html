@@ -12,63 +12,88 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+    <link rel="stylesheet" href="styles.css" />
     <title>Frontend Mentor | NFT preview card component</title>
   </head>
 
   <body>
     <main>
       <div class="card">
-        <img
-          src="./assets/images/image-equilibrium.jpg"
-          alt="Equilibrium Illustration"
-          class="card__image"
-        />
+        <div class="card__wrapper">
+          <img
+            src="./assets/images/image-equilibrium.jpg"
+            alt="Equilibrium Illustration"
+            class="card__image"
+          />
+          <div class="card__wrapper__background"></div>
+          <img
+            src="./assets/images/icon-view.svg"
+            alt="Equilibrium Illustration"
+            class="card__svg"
+          />
+        </div>
 
-        <h2 class="card__title text--white">Equilibrium #3429</h2>
+        <h2 class="card__title card__text--contrast card--heavy-weight">
+          Equilibrium #3429
+        </h2>
 
-        <p class="card__text">
+        <p class="card__text card--light-weight">
           Our Equilibrium collection promotes balance and calm.
         </p>
 
-        <img
-          src="./assets/images/icon-ethereum.svg"
-          alt="Ethereum Icon"
-          class="card__icon"
-        />
+        <div class="flex-row flex-row--spread">
+          <div class="align-left flex-row">
+            <img
+              src="./assets/images/icon-ethereum.svg"
+              alt="Ethereum Icon"
+              class="card__icon"
+            />
 
-        <p class="card__price">0.041 ETH</p>
+            <p class="card__text card__price card--heavy-weight">0.041 ETH</p>
+          </div>
 
-        <img
-          src="./assets/images/icon-clock.svg"
-          alt="Clock Icon"
-          class="card__icon"
-        />
+          <div class="align-right flex-row">
+            <img
+              src="./assets/images/icon-clock.svg"
+              alt="Clock Icon"
+              class="card__icon align-left"
+            />
 
-        <p class="card__text">3 days left</p>
+            <p class="card__text card--medium-weight">3 days left</p>
+          </div>
+        </div>
 
         <hr />
 
-        <img
-          src="./assets/images/image-avatar.png"
-          alt="Profile Picture"
-          class="card__icon"
-        />
+        <div class="flex-row">
+          <img
+            src="./assets/images/image-avatar.png"
+            alt="Profile Picture"
+            class="card__profile"
+          />
 
-        <p class="card__text">
-          Creation of <span class="text--white"> Jules Wyvern</span>
-        </p>
+          <p class="card__text card--medium-weight">
+            Creation of <span class="card__text--contrast"> Jules Wyvern</span>
+          </p>
+        </div>
       </div>
     </main>
 
     <footer>
       <div class="attribution">
         Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
-          Frontend Mentor</a
-        >
-        . Coded by <a href="#"> Your Name Here</a>
-        .
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          alt="Frontend Mentor (Open in new tab)"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          href="https://github.com/Aon-m"
+          target="_blank"
+          alt="Aon (Open in new tab)"
+          >Aon</a
+        >.
       </div>
     </footer>
   </body>
