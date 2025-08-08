@@ -66,6 +66,7 @@ main {
     width: 100%;
     background-image: url("/assets/images/image-equilibrium.jpg");
   }
+
   &__wrapper {
     display: flex;
     border-radius: 0.5rem;
@@ -138,6 +139,7 @@ main {
   &--medium-weight {
     font-weight: 400;
   }
+
   &--light-weight {
     font-weight: 300;
   }
@@ -155,7 +157,9 @@ main {
 
   &__title {
     font-size: clamp(0.8rem, calc(1.6rem + 1vw), 1rem);
+    width: fit-content;
   }
+
   hr {
     background: var(--card-text);
     border: none;
@@ -170,10 +174,12 @@ main {
     justify-content: space-between;
   }
 }
+
 .align-right {
   justify-self: flex-end;
   text-align: right;
 }
+
 .align-left {
   justify-self: flex-start;
   text-align: left;
