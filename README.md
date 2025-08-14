@@ -28,14 +28,7 @@ Users should be able to:
 
 <div style="display: flex; gap: 1rem; align-items: flex-start; width: clamp(600px, 90%, 1000px); height: 400px;">
   <figure style="margin: 0; height: 100%; text-align: center;">
-    <figcaption>Mobile preview</figcaption>
-    <img src="./design/previews/mobile-preview.jpeg" alt="Mobile Preview" style="height: auto; border-right: 1px solid #808080; padding-right: 1em;" />
-
-  </figure>
-  <figure style="margin: 0; width: 80%; text-align: center;">
-    <figcaption>Desktop preview</figcaption>
-    <img src="./design/previews/desktop-preview.jpeg" alt="Desktop Preview" style="width: 90%;" />
-  </figure>
+    <img src="./design/previews/mobile-preview.jpeg" alt="Mobile Preview" style="height: auto; border-right: 1px solid #808080;" />
 </div>
 
 ### Links
